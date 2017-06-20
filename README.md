@@ -1,19 +1,22 @@
-# React Native Tools to android
+# React Native Tools
 
-## Alias
+## Android 
 
-*options*
+### Options
 
 alias rn-opt='adb shell input keyevent 82'
 
-*optios -> click in restart*
+### Reload
 
-alias rn-restart='adb shell input keyevent 82 && adb shell input keyevent 20 && adb shell input keyevent 66'
+alias rn-reload='adb shell input keyevent 82 && adb shell input keyevent 20 && adb shell input keyevent 66'
 
-*start*
-
+### Start 
 alias rn-start='react-native run-android'
 
-*log*
+### Log
 
 alias rn-log='react-native log-android'
+
+### Release
+
+alias rn-release='react-native run-android --variant=release'
